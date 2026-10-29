@@ -1,0 +1,52 @@
+.app {
+  min-height: 100vh;
+  padding: 30px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: 0.3s;
+}
+
+.light {
+  background: #f4f4f4;
+  color: #222;
+}
+
+.dark {
+  background: #222;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  width: 220px;
+  margin: 15px 5px;
+}
+
+button {
+  padding: 10px 14px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+}
+
+ul {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-wrap: anywhere;
+  gap: 10px;
+}
